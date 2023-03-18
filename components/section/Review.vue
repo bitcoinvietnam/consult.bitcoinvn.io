@@ -1,14 +1,16 @@
 <template>
-  <section id="review" class="section bg-dark-blue/20">
-    <div class="section-ctn">
-      <div class="header">
-        Happy Customers
+  <ClientOnly>
+    <section id="review" class="section bg-dark-blue/20">
+      <div class="section-ctn">
+        <div class="header">
+          Happy Customers
+        </div>
+        <carousel class="pt-5" :data="customers" :indicators="false" indicator-type="false" :controls="true"
+          :autoplay="true" :interval=4000 v-bind:slide-on-swipe="true">
+        </carousel>
       </div>
-      <carousel class="pt-5" :data="customers" :indicators="false" indicator-type="false" :controls="true"
-        :autoplay="true" :interval=4000 v-bind:slide-on-swipe="true">
-      </carousel>
-    </div>
-  </section>
+    </section>
+  </ClientOnly>
 </template>
 
 <script>
