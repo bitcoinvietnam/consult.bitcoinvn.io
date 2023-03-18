@@ -49,6 +49,5 @@ export default {
     };
   },
   methods: {},
-  components: { nuxtConfig }
 }
 </script>
