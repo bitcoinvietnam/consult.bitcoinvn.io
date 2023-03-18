@@ -2,15 +2,15 @@
     <div class="flex flex-col text-center md:h-[60px] bg-dark-blue-2 text-gray-400 py-3 ">
         <div class="m-auto md:m-0 md:px-7">
             <div class="pt-3 md:float-left">
-                BitcoinVN 2014 - 2023
+                BitcoinVN 2013 - {{ new Date().getFullYear() }}
             </div>
             <div class="pt-1 md:float-right">
                 <div class="flex flex-row justify-center ">
                     <div v-for="item in items" :key="item.caption"
                         class="px-2 hover:underline hover:underline-offset-8 hover:decoration-1 hover:text-white">
-                        <nuxt-link :to="item.url" target="_blank">
+                        <a :href="item.url" target="_blank">
                             {{ item.caption }}
-                        </nuxt-link>
+                        </a>
                     </div>
                 </div>
             </div>

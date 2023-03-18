@@ -25,34 +25,30 @@ export default {
   data() {
     return {
       items: [{
-        caption: 'Home',
-        url: '/'
-      },
-      {
-        caption: 'About',
-        url: '/#about'
-      },
-      {
-        caption: 'Our Team',
-        url: '/#team'
-      },
-      {
-        caption: 'Services',
-        url: '/#service'
-      },
-      {
-        caption: 'Pricing',
-        url: '/#pricing'
-      },
-      {
-        caption: 'FAQs',
-        url: '/#faq'
-      },
-      {
-        caption: 'Contact',
-        url: '/#contact'
+        caption: "Home",
+        url: "/"
+      }, {
+        caption: "About",
+        url: "/#about"
+      }, {
+        caption: "Our Team",
+        url: "/#team"
+      }, {
+        caption: "Services",
+        url: "/#service"
+      }, {
+        caption: "Pricing",
+        url: "/#pricing"
+      }, {
+        caption: "FAQs",
+        url: "/#faq"
+      }, {
+        caption: "Contact",
+        url: "/#contact"
       }]
-    }
-  }
+    };
+  },
+  methods: {},
+  components: { nuxtConfig }
 }
 </script>
