@@ -33,15 +33,15 @@ export default {
                 },
                 {
                     caption: 'Shop',
-                    url: 'https:/shop.bitcoinvn.io'
+                    url: 'https://shop.bitcoinvn.io'
                 },
                 {
                     caption: 'OTC',
-                    url: 'https:/otc.bitcoinvn.io'
+                    url: 'https://otc.bitcoinvn.io'
                 },
                 {
                     caption: 'Newsletter',
-                    url: 'https:/newsletter.bitcoinvn.io'
+                    url: 'https://newsletter.bitcoinvn.io'
                 },
             ]
         }
