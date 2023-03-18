@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-props bg-[url('/images/bg-2.jpg')]">
+  <section class="bg-props bg-[url('https://bitcoinvietnam.github.io/consult.bitcoinvn.io/images/bg-2.jpg')]">
     <div class="w-full bg-black/20">
       <div class="section">
         <div class="section-ctn">
