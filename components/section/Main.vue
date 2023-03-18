@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <carousel :data="carousel" indicator-type="disc" :controls="true" :autoplay="true" :interval=4000
-      v-bind:slide-on-swipe="true">
-    </carousel>
-  </div>
+  <ClientOnly>
+    <div>
+      <carousel :data="carousel" indicator-type="disc" :controls="true" :autoplay="true" :interval=4000
+        v-bind:slide-on-swipe="true">
+      </carousel>
+    </div>
+  </ClientOnly>
 </template>
 
 <script>
