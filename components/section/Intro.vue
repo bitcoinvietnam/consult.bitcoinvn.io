@@ -1,6 +1,6 @@
 <template>
   <section id="intro" class="text-white section bg-gray-900/70">
-    <div class="section-ctn">
+    <div class="flex flex-col space-y-3 section-ctn">
       <div class="pt-10 tracking-wider text-white header">
         Here at BitcoinVN
       </div>
@@ -17,12 +17,15 @@
           And we are here to assist you every step of the way.
         </div>
         <div>
-
           Feel you could need our help or benefit from our guidance?
         </div>
-        <div>
-          Reach out below. ⬇
-        </div>
+      </div>
+      <div>
+        <NuxtLink to="/#contact">
+          <BtnMain>
+            Reach out below ⬇
+          </BtnMain>
+        </NuxtLink>
       </div>
     </div>
   </section>
