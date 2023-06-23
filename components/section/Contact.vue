@@ -1,38 +1,36 @@
 <template>
-  <div class=" bg-[url('~/assets/images/bg-1.jpg')] bg-center ">
-    <section id="contact" class="text-white bg-gray-900/70 section">
-      <div class="w-full md:w-3/6 section-ctn ">
-        <div class="text-white header">
-          Contact Us
-        </div>
-        <div class="paragraph">
-          <form class="flex flex-col">
-            <label for="email" class="pt-3 pb-3 font-bold">Your Email Address:</label>
-            <input type="text" v-model="email" id="email"
-              class="w-full p-2 text-base font-bold text-center bg-gray-100 rounded-lg md:p-3 md:text-lg text-dark-blue" />
-            <div v-if="!validEmail" class="pt-1 text-red-500">
-              Please enter a valid email address.
-            </div>
-            <label for="message" class="pt-6 pb-3 font-bold">Your Message:</label>
-            <textarea id="message" v-model="message" rows="6"
-              class="w-full p-2 text-sm bg-gray-100 rounded-lg md:p-3 md:text-sm text-dark-blue " />
-          </form>
-          <div v-if="successResp" class="pt-5 font-bold tracking-wide text-center text-green-500">
-            <div>
-              Thank you for contacting us.
-            </div>
-            <div>
-              We will reach back to you soon!
+  <section id="contact" class="text-white bg-gray-900/70 section">
+    <div class="w-full md:w-3/6 section-ctn ">
+      <div class="text-white header">
+        Contact Us
+      </div>
+      <div class="paragraph">
+        <form class="flex flex-col">
+          <label for="email" class="pt-3 pb-3 font-bold">Your Email Address:</label>
+          <input type="text" v-model="email" id="email"
+            class="w-full p-2 text-base font-bold text-center bg-gray-100 rounded-lg md:p-3 md:text-lg text-dark-blue" />
+          <div v-if="!validEmail" class="pt-1 text-red-500">
+            Please enter a valid email address.
+          </div>
+          <label for="message" class="pt-6 pb-3 font-bold">Your Message:</label>
+          <textarea id="message" v-model="message" rows="6"
+            class="w-full p-2 text-sm bg-gray-100 rounded-lg md:p-3 md:text-sm text-dark-blue " />
+        </form>
+        <div v-if="successResp" class="pt-5 font-bold tracking-wide text-center text-green-500">
+          <div>
+            Thank you for contacting us.
+          </div>
+          <div>
+            We will reach back to you soon!
 
-            </div>
           </div>
         </div>
-        <div class="pt-3">
-          <BtnMain :onclick="submit">Submit</BtnMain>
-        </div>
       </div>
-    </section>
-  </div>
+      <div class="pt-3">
+        <BtnMain :onclick="submit">Submit</BtnMain>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
