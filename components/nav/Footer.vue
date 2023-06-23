@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col text-center md:h-[60px] bg-dark-blue-2 text-gray-400 py-3 ">
+    <div class="flex flex-col text-center md:h-[60px] bg-dark-blue-2 text-gray-400 py-3 text-sm">
         <div class="m-auto md:m-0 md:px-7">
             <div class="pt-3 md:float-left">
-                BitcoinVN 2013 - {{ new Date().getFullYear() }}
+                BitcoinVN 2014 - {{ new Date().getFullYear() }}
             </div>
             <div class="pt-1 md:float-right">
                 <div class="flex flex-row justify-center ">
