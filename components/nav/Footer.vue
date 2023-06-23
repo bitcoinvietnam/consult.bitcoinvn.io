@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-col text-center md:h-[60px] bg-dark-blue-2 text-gray-400 py-3 text-sm">
-        <div class="m-auto md:m-0 md:px-7">
-            <div class="pt-3 md:float-left">
+    <div class="flex flex-col py-5 text-sm text-center text-gray-400 bg-dark-blue-2">
+        <div class="m-auto md:m-0 md:px-12">
+            <div class="md:float-left">
                 BitcoinVN 2014 - {{ new Date().getFullYear() }}
             </div>
-            <div class="pt-1 md:float-right">
+            <div class="md:float-right">
                 <div class="flex flex-row justify-center ">
                     <div v-for="item in items" :key="item.caption"
                         class="px-2 hover:underline hover:underline-offset-8 hover:decoration-1 hover:text-white">
