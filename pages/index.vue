@@ -1,13 +1,13 @@
 <template>
   <div>
     <NavTop />
-    <SectionMain />
+    <!-- <SectionMain />
     <SectionAbout />
     <SectionTeam />
     <SectionService />
     <SectionReview />
     <SectionPricing />
-    <SectionFaq />
+    <SectionFaq /> -->
     <SectionContact />
     <NavFooter />
   </div>
