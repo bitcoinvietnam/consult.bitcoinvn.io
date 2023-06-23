@@ -9,7 +9,6 @@
     <SectionPricing />
     <SectionFaq /> -->
     <SectionIntro />
-    <SectionContact />
     <NavFooter />
   </div>
 </template>

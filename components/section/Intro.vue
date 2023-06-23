@@ -21,9 +21,9 @@
         </div>
       </div>
       <div>
-        <NuxtLink to="/#contact">
+        <NuxtLink to="/contact">
           <BtnMain>
-            Reach out below ⬇
+            Contact Us
           </BtnMain>
         </NuxtLink>
       </div>

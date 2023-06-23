@@ -74,10 +74,10 @@ export default {
       // Formspree side will send an email for confirmation.
       // So we just display a thank you note here
       this.successResp = true
-      // const resp = await fetch(this.endpoint, {
-      //   method: 'POST',
-      //   body: JSON.stringify(data)
-      // })
+      const resp = await fetch(this.endpoint, {
+        method: 'POST',
+        body: JSON.stringify(data)
+      })
     },
   },
 }
