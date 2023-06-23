@@ -54,5 +54,17 @@ export default {
         },
       },
     },
-  }
+  },
+
+  script: [
+    { src: 'https://www.googletagmanager.com/gtag/js?id=G-5CM5QH3781', async: true },
+    {
+      innerHTML: `window.dataLayer = window.dataLayer || [];
+                  function gtag(){ dataLayer.push(arguments); };
+                  gtag('js', new Date());
+                  gtag('config', 'G-5CM5QH3781');`,
+      type: 'text/javascript',
+      charset: 'utf-8'
+    }
+  ]
 }
