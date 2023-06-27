@@ -4,7 +4,7 @@
       <div class="flex pt-10 tracking-wider normal-case text-gold-500 header">
         <div class="flex flex-row mx-auto space-x-2">
           <div>
-            HERE AT
+            <!-- HERE AT -->
           </div>
           <LogoBitcoinVN :displayConsultingText="false" />
         </div>
