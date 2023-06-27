@@ -1,9 +1,9 @@
 <template>
   <div class="sticky top-0 z-50">
-    <div class="flex justify-center h-16 md:h-[60px] bg-dark-blue">
+    <div class="flex justify-center h-16 md:h-[60px] bg-dark-blue-2/50">
       <div class="absolute left-4 top-3 md:left-5 md:top-[14px]">
         <NuxtLink to="/">
-          <LogoBitcoinVN />
+          <LogoBitcoinVN :displayConsultingText="true" />
         </NuxtLink>
       </div>
       <div class="flex flex-row m-auto text-white">

@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="text-white bg-gray-900/70 section">
     <div class="w-full md:w-3/6 section-ctn ">
-      <div class="text-white header">
+      <div class="text-gold-500 header">
         Contact Us
       </div>
       <div class="paragraph">
@@ -63,13 +63,7 @@ export default {
       }
       const data = {
         email: this.email,
-        message: this.message,
-        interested_coins: {
-          btc: this.btc,
-          eth: this.eth,
-          usdt: this.usdt,
-          usdc: this.usdc
-        }
+        message: this.message
       }
       // Formspree side will send an email for confirmation.
       // So we just display a thank you note here

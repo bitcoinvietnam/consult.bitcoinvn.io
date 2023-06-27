@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-[url('~/assets/images/bg-1.jpg')] bg-no-repeat bg-fixed bg-center bg-cover ">
+  <div class="bg-fixed bg-center bg-no-repeat bg-cover bg-[url('~/assets/images/bg-3.jpg')]">
     <NavTop />
     <!-- <SectionMain />
     <SectionAbout />

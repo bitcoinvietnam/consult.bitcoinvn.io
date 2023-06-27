@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col py-5 text-sm text-center text-gray-400 bg-dark-blue-2">
+    <div class="flex flex-col py-5 text-sm text-center text-gray-400 bg-dark-blue-2/70">
         <div class="m-auto md:m-0 md:px-12">
             <div class="md:float-left">
                 BitcoinVN 2014 - {{ new Date().getFullYear() }}

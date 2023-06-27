@@ -13,7 +13,15 @@
             </svg>
         </div>
         <div class="pl-1 font-semibold tracking-wide text-left text-white text-md font-sans-serif md:text-md">
-            BitcoinVN <span class="font-black text-star-yellow">Consulting</span>
+            BitcoinVN <span class="font-black text-star-yellow">{{ displayConsultingText ? "Consulting" : "" }}</span>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    props: {
+        displayConsultingText: Boolean
+    }
+}
+</script>
