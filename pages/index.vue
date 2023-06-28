@@ -1,5 +1,6 @@
 <template>
   <div class="bg-fixed bg-center bg-no-repeat bg-cover bg-[url('~/assets/images/bg-3.jpg')]">
+    <SectionIntro />
     <NavTop />
     <!-- <SectionMain />
     <SectionAbout />
@@ -8,7 +9,6 @@
     <SectionReview />
     <SectionPricing />
     <SectionFaq /> -->
-    <SectionIntro />
     <NavFooter />
   </div>
 </template>
