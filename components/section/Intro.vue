@@ -29,6 +29,11 @@
             </button>
           </NuxtLink>
         </div>
+        <div
+          class="flex flex-col space-y-1 text-sm leading-relaxed tracking-wide text-center text-gray-300 md:space-y-3 paragraph md:px-20 hover:text-white md:text-sm hover:underline hover:underline-offset-8 hover:decoration-1">
+          <a href="https://newsletter.bitcoinvn.io/private-client?utm_source=consult&utm_medium=intro_section&utm_campaign=subscribe"
+            target="_blank"> Or subscribe to our private client newsletter. </a>
+        </div>
       </div>
     </div>
   </section>
