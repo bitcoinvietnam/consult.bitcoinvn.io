@@ -40,6 +40,10 @@ export default {
                     url: 'https://otc.bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing'
                 },
                 {
+                    caption: 'BTM',
+                    url: 'https://btm.bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing'
+                },
+                {
                     caption: 'Newsletter',
                     url: 'https://newsletter.bitcoinvn.io/private-client?utm_source=consult&utm_medium=footer&utm_campaign=subscribe'
                 },
