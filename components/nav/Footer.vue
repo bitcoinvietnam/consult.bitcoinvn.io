@@ -25,23 +25,23 @@ export default {
             items: [
                 {
                     caption: 'Exchange',
-                    url: 'https://bitcoinvn.io'
+                    url: 'https://bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing'
                 },
                 {
                     caption: 'News',
-                    url: 'https://news.bitcoinvn.io'
+                    url: 'https://bitcoinvn.io/news?utm_source=consult&utm_medium=footer&utm_campaign=landing'
                 },
                 {
                     caption: 'Shop',
-                    url: 'https://shop.bitcoinvn.io'
+                    url: 'https://shop.bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing'
                 },
                 {
                     caption: 'OTC',
-                    url: 'https://otc.bitcoinvn.io'
+                    url: 'https://otc.bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing'
                 },
                 {
                     caption: 'Newsletter',
-                    url: 'https://newsletter.bitcoinvn.io'
+                    url: 'https://newsletter.bitcoinvn.io/private-client?utm_source=consult&utm_medium=footer&utm_campaign=subscribe'
                 },
             ]
         }
