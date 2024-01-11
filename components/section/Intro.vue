@@ -42,7 +42,7 @@ export default {
   methods: {
     contact() {
       RocketChat(function () {
-        this.setDepartment('OTC');
+        this.setDepartment('Consult');
       });
       RocketChat(function () {
         this.maximizeWidget();
