@@ -22,12 +22,10 @@
           </div>
         </div>
         <div>
-          <NuxtLink to="/contact">
-            <button
-              class="h-12 font-semibold tracking-wider text-white uppercase rounded-full hover:border-2 w-60 bg-gradient-to-r from-gold-500/60 to-gold-500/90 border-dark-blue hover:border-white">
-              Contact Us
-            </button>
-          </NuxtLink>
+          <button @click="contact"
+            class="h-12 font-semibold tracking-wider text-white uppercase rounded-full hover:border-2 w-60 bg-gradient-to-r from-gold-500/60 to-gold-500/90 border-dark-blue hover:border-white">
+            Contact Us
+          </button>
         </div>
         <div
           class="flex flex-col space-y-1 text-sm leading-relaxed tracking-wide text-center text-gray-300 md:space-y-3 paragraph md:px-20 hover:text-white md:text-sm hover:underline hover:underline-offset-8 hover:decoration-1">
@@ -38,3 +36,19 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    contact() {
+      RocketChat(function () {
+        this.setDepartment('OTC');
+      });
+      RocketChat(function () {
+        this.maximizeWidget();
+      });
+    }
+
+  }
+}
+</script>

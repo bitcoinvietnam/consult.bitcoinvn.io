@@ -19,6 +19,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ],
     script: [
+      // Gtag
       { src: 'https://www.googletagmanager.com/gtag/js?id=G-5CM5QH3781', async: true },
       {
         innerHTML: `window.dataLayer = window.dataLayer || [];
@@ -27,7 +28,18 @@ export default {
                   gtag('config', 'G-5CM5QH3781');`,
         type: 'text/javascript',
         charset: 'utf-8'
-      }
+      },
+      // Rocket Live chat widget
+      {
+        innerHTML: `	(function(w, d, s, u) {
+          w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+          var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+          j.async = true; j.src = 'https://chat.bitcoinvn.io/livechat/rocketchat-livechat.min.js?_=201903270000';
+          h.parentNode.insertBefore(j, h);
+        })(window, document, 'script', 'https://chat.bitcoinvn.io/livechat');`,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      },
     ]
   },
 
