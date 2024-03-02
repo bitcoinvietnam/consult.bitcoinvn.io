@@ -41,7 +41,7 @@
 export default {
   methods: {
     contact() {
-
+      FreshworksWidget('open');
     }
 
   }
