@@ -39,7 +39,7 @@ export default {
     return {
       email: '',
       message: '',
-      endpoint: 'https://formspree.io/f/mrgwzgzy',
+      endpoint: '',
       validEmail: true,
       successResp: false
     }
