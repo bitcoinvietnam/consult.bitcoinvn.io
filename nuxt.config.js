@@ -80,6 +80,6 @@ export default {
   },
 
   router: {
-    base: '/consulting/'
+    base: '/consulting'
   }
 }
