@@ -79,4 +79,7 @@ export default {
     },
   },
 
+  router: {
+    base: '/consulting/'
+  }
 }
