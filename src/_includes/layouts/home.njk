@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="hero v-c" id="hero">
+  <canvas id="latticeCanvas" class="hero-lattice" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="vc-content reveal reveal-up">
+      <div class="vc-eyebrow"><span>BitcoinVN &middot; Consulting</span></div>
+      <h1 class="vc-h1">Your keys.<br />Your coins.<br /><span class="gradient-text">Your sovereignty.</span></h1>
+      <div class="vc-lead">{{ content | safe }}</div>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contact Us</a>
+      </div>
+
+      <p class="hero-subscribe">
+        <a href="{{ site.newsletterUrl }}" target="_blank" rel="noopener">Or subscribe to our private client newsletter.</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{% include "partials/contact.njk" %}

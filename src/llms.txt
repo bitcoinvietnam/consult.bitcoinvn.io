@@ -1,0 +1,16 @@
+# BitcoinVN Consulting
+
+> Private-client Bitcoin consulting from BitcoinVN. We help you hold your own keys, take control of your finances, and walk your path to self-sovereignty.
+
+BitcoinVN Consulting is the private-client advisory service of BitcoinVN, Vietnam's Bitcoin exchange operating since 2014. We guide clients on Bitcoin self-custody, key management, and financial sovereignty, and assist every step of the way.
+
+## Contact
+- Email: support@bitcoinvn.io
+- Private client newsletter: https://newsletter.bitcoinvn.io/private-client
+
+## BitcoinVN
+- Exchange: https://bitcoinvn.io
+- Insights: https://bitcoinvn.io/insights
+- OTC: https://bitcoinvn.io/otc
+- BTM: https://bitcoinvn.io/btm
+- Shop: https://bitcoinvn.io/shop

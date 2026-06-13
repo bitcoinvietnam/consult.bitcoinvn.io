@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ site.meta.title }}</title>
+  <meta name="description" content="{{ site.meta.description }}" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{{ site.meta.url }}" />
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.meta.title }}" />
+  <meta property="og:description" content="{{ site.meta.description }}" />
+  <meta property="og:url" content="{{ site.meta.url }}" />
+  <meta property="og:image" content="{{ site.meta.ogImage }}" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="1667" />
+  <meta property="og:image:height" content="417" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ site.meta.title }}" />
+  <meta name="twitter:description" content="{{ site.meta.description }}" />
+  <meta name="twitter:image" content="{{ site.meta.ogImage }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://support.bitcoinvn.io" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.meta.gaId }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.meta.gaId }}');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BitcoinVN Consulting",
+    "url": "https://bitcoinvn.io/consulting/",
+    "logo": "https://bitcoinvn.io/consulting/images/logo_dark.webp",
+    "description": "Private-client Bitcoin consulting from BitcoinVN - helping you hold your own keys and take control of your finances.",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "BitcoinVN",
+      "url": "https://bitcoinvn.io"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+
+  {% include "partials/navbar.njk" %}
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  {% include "partials/footer.njk" %}
+
+  <script src="{{ '/js/main.js' | url }}"></script>
+</body>
+</html>

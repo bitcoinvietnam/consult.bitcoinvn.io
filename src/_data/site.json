@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "BitcoinVN Consulting - Bitcoin Self-Custody Guidance",
+    "description": "Private-client Bitcoin consulting from BitcoinVN. We help you hold your own keys, take control of your finances, and walk your path to self-sovereignty - every step of the way.",
+    "url": "https://bitcoinvn.io/consulting/",
+    "ogImage": "https://bitcoinvn.io/consulting/images/logo_dark.webp",
+    "gaId": "G-5CM5QH3781"
+  },
+  "brand": {
+    "name": "BitcoinVN",
+    "accent": "Consulting"
+  },
+  "newsletterUrl": "https://newsletter.bitcoinvn.io/private-client?utm_source=consult&utm_medium=intro_section&utm_campaign=subscribe",
+  "footer": {
+    "links": [
+      {
+        "label": "Exchange",
+        "href": "https://bitcoinvn.io?utm_source=consult&utm_medium=footer&utm_campaign=landing"
+      },
+      {
+        "label": "Insights",
+        "href": "https://bitcoinvn.io/insights?utm_source=consult&utm_medium=footer&utm_campaign=landing"
+      },
+      {
+        "label": "Shop",
+        "href": "https://bitcoinvn.io/shop?utm_source=consult&utm_medium=footer&utm_campaign=landing"
+      },
+      {
+        "label": "OTC",
+        "href": "https://bitcoinvn.io/otc?utm_source=consult&utm_medium=footer&utm_campaign=landing"
+      },
+      {
+        "label": "BTM",
+        "href": "https://bitcoinvn.io/btm?utm_source=consult&utm_medium=footer&utm_campaign=landing"
+      },
+      {
+        "label": "Newsletter",
+        "href": "https://newsletter.bitcoinvn.io/private-client?utm_source=consult&utm_medium=footer&utm_campaign=subscribe"
+      }
+    ]
+  }
+}

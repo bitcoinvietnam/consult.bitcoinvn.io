@@ -1,0 +1,47 @@
+<section class="contact-section section" id="contact">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="contact-intro reveal">
+        <div class="section-tag">Get in Touch</div>
+        <h2>Let's talk about your <span class="gradient-text">Bitcoin journey</span></h2>
+        <p>Tell us where you are and where you'd like to be. We'll help you hold your keys, take control of your finances, and move toward self-sovereignty - every step of the way.</p>
+      </div>
+      <div class="contact-form-wrap reveal reveal-delay-1">
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <div id="zammad-contact-form">
+            <p class="form-loading">Loading form&hellip;</p>
+            <noscript><p class="js-noConfig">Please email us at <a href="mailto:support@bitcoinvn.io">support@bitcoinvn.io</a>.</p></noscript>
+          </div>
+          <p class="contact-disclaimer">
+            We treat every enquiry confidentially and will be in touch shortly.
+            Prefer email? Write to <a href="mailto:support@bitcoinvn.io">support@bitcoinvn.io</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+<script id="zammad_form_script" src="https://support.bitcoinvn.io/assets/form/form.js"></script>
+<script>
+  $(function () {
+    $('#zammad-contact-form').ZammadForm({
+      messageTitle: 'Consulting Enquiry',
+      messageSubmit: 'Send Message',
+      messageThankYou: 'Thank you for reaching out! We\'ll be in touch shortly.',
+      messageNoConfig: 'Our contact form is unavailable right now. Please email us at support@bitcoinvn.io and we\'ll get back to you.',
+      modal: false,
+    });
+  });
+</script>
+<script>
+  // Fallback if jQuery or the Zammad widget fails to load
+  setTimeout(function () {
+    var el = document.getElementById('zammad-contact-form');
+    if (el && el.querySelector('.form-loading')) {
+      el.innerHTML = '<p class="js-noConfig">Our form did not load. Please email us at <a href="mailto:support@bitcoinvn.io">support@bitcoinvn.io</a>.</p>';
+    }
+  }, 8000);
+</script>

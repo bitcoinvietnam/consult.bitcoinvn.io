@@ -1,0 +1,21 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand">
+      <a href="#hero" class="footer-logo">
+        <img src="{{ '/images/logo_dark.webp' | url }}" alt="BitcoinVN Consulting" class="footer-logo-img" width="104" height="26" loading="lazy" />
+        <span class="logo-divider"></span>
+        <span>{{ site.brand.accent }}</span>
+      </a>
+    </div>
+
+    <nav class="footer-nav">
+      <ul>
+        {% for link in site.footer.links %}
+          <li><a href="{{ link.href }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <p class="footer-copyright">BitcoinVN 2014 - {{ "" | year }}</p>
+  </div>
+</footer>
