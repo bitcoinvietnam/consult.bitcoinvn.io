@@ -30,14 +30,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" />
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.meta.gaId }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{ site.meta.gaId }}');
-  </script>
+  <!-- Plausible Analytics -->
+  <script defer data-domain="bitcoinvn.io/consulting" src="https://plausible.bitcoinvn.io/js/script.js"></script>
 
   <script type="application/ld+json">
   {
